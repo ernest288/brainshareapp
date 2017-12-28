@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		17CECA071FDDAFDD00F6F08F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CECA061FDDAFDD00F6F08F /* AppDelegate.swift */; };
-		17CECA091FDDAFDD00F6F08F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CECA081FDDAFDD00F6F08F /* ViewController.swift */; };
+		17CECA091FDDAFDD00F6F08F /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CECA081FDDAFDD00F6F08F /* SignInViewController.swift */; };
 		17CECA0C1FDDAFDD00F6F08F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CECA0A1FDDAFDD00F6F08F /* Main.storyboard */; };
 		17CECA0E1FDDAFDE00F6F08F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CECA0D1FDDAFDE00F6F08F /* Assets.xcassets */; };
 		17CECA111FDDAFDE00F6F08F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17CECA0F1FDDAFDE00F6F08F /* LaunchScreen.storyboard */; };
 		17CECA1C1FDDAFDE00F6F08F /* brainshareappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CECA1B1FDDAFDE00F6F08F /* brainshareappTests.swift */; };
 		17CECA271FDDAFDE00F6F08F /* brainshareappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CECA261FDDAFDE00F6F08F /* brainshareappUITests.swift */; };
+		17CECA351FDDB14300F6F08F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 17CECA341FDDB14300F6F08F /* GoogleService-Info.plist */; };
+		A1291BB71629A9965AC79726 /* Pods_brainshareapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A421EC6CBC7659270A0984D /* Pods_brainshareapp.framework */; };
+		B4ECD06BB64BF0E594611D7C /* Pods_brainshareappUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2EEE10D46E2FB3ECD62B89C /* Pods_brainshareappUITests.framework */; };
+		CA353877941D6D3136253830 /* Pods_brainshareappTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5023F99A99470877D4347E /* Pods_brainshareappTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,7 @@
 /* Begin PBXFileReference section */
 		17CECA031FDDAFDD00F6F08F /* brainshareapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brainshareapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CECA061FDDAFDD00F6F08F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		17CECA081FDDAFDD00F6F08F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17CECA081FDDAFDD00F6F08F /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		17CECA0B1FDDAFDD00F6F08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17CECA0D1FDDAFDE00F6F08F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17CECA101FDDAFDE00F6F08F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,16 @@
 		17CECA221FDDAFDE00F6F08F /* brainshareappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brainshareappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17CECA261FDDAFDE00F6F08F /* brainshareappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainshareappUITests.swift; sourceTree = "<group>"; };
 		17CECA281FDDAFDE00F6F08F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17CECA341FDDB14300F6F08F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1B99A83C60990D157888A18C /* Pods-brainshareappUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brainshareappUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-brainshareappUITests/Pods-brainshareappUITests.release.xcconfig"; sourceTree = "<group>"; };
+		241D7F24DB73925F841E6736 /* Pods-brainshareapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brainshareapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-brainshareapp/Pods-brainshareapp.release.xcconfig"; sourceTree = "<group>"; };
+		455E492BBE2994BE361BDB63 /* Pods-brainshareappUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brainshareappUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brainshareappUITests/Pods-brainshareappUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60BAE58BB84754BCB8DFEC8F /* Pods-brainshareapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brainshareapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brainshareapp/Pods-brainshareapp.debug.xcconfig"; sourceTree = "<group>"; };
+		8A421EC6CBC7659270A0984D /* Pods_brainshareapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brainshareapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9714B72BFB45F014604B6976 /* Pods-brainshareappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brainshareappTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-brainshareappTests/Pods-brainshareappTests.release.xcconfig"; sourceTree = "<group>"; };
+		B16337160A01216C3E0E63AA /* Pods-brainshareappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brainshareappTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-brainshareappTests/Pods-brainshareappTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2EEE10D46E2FB3ECD62B89C /* Pods_brainshareappUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brainshareappUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5023F99A99470877D4347E /* Pods_brainshareappTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_brainshareappTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1291BB71629A9965AC79726 /* Pods_brainshareapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA353877941D6D3136253830 /* Pods_brainshareappTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4ECD06BB64BF0E594611D7C /* Pods_brainshareappUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				17CECA1A1FDDAFDE00F6F08F /* brainshareappTests */,
 				17CECA251FDDAFDE00F6F08F /* brainshareappUITests */,
 				17CECA041FDDAFDD00F6F08F /* Products */,
+				8B4E5134EEDB9706D1DBFE8C /* Pods */,
+				D9ECCFD7EDF5A839AF9FD76D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +117,12 @@
 			isa = PBXGroup;
 			children = (
 				17CECA061FDDAFDD00F6F08F /* AppDelegate.swift */,
-				17CECA081FDDAFDD00F6F08F /* ViewController.swift */,
+				17CECA081FDDAFDD00F6F08F /* SignInViewController.swift */,
 				17CECA0A1FDDAFDD00F6F08F /* Main.storyboard */,
 				17CECA0D1FDDAFDE00F6F08F /* Assets.xcassets */,
 				17CECA0F1FDDAFDE00F6F08F /* LaunchScreen.storyboard */,
 				17CECA121FDDAFDE00F6F08F /* Info.plist */,
+				17CECA341FDDB14300F6F08F /* GoogleService-Info.plist */,
 			);
 			path = brainshareapp;
 			sourceTree = "<group>";
@@ -125,6 +145,29 @@
 			path = brainshareappUITests;
 			sourceTree = "<group>";
 		};
+		8B4E5134EEDB9706D1DBFE8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60BAE58BB84754BCB8DFEC8F /* Pods-brainshareapp.debug.xcconfig */,
+				241D7F24DB73925F841E6736 /* Pods-brainshareapp.release.xcconfig */,
+				B16337160A01216C3E0E63AA /* Pods-brainshareappTests.debug.xcconfig */,
+				9714B72BFB45F014604B6976 /* Pods-brainshareappTests.release.xcconfig */,
+				455E492BBE2994BE361BDB63 /* Pods-brainshareappUITests.debug.xcconfig */,
+				1B99A83C60990D157888A18C /* Pods-brainshareappUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9ECCFD7EDF5A839AF9FD76D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A421EC6CBC7659270A0984D /* Pods_brainshareapp.framework */,
+				EA5023F99A99470877D4347E /* Pods_brainshareappTests.framework */,
+				E2EEE10D46E2FB3ECD62B89C /* Pods_brainshareappUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17CECA2B1FDDAFDE00F6F08F /* Build configuration list for PBXNativeTarget "brainshareapp" */;
 			buildPhases = (
+				5BA9DDE46408E17CB1714AE7 /* [CP] Check Pods Manifest.lock */,
 				17CEC9FF1FDDAFDD00F6F08F /* Sources */,
 				17CECA001FDDAFDD00F6F08F /* Frameworks */,
 				17CECA011FDDAFDD00F6F08F /* Resources */,
+				1011275DC749733E20D5954B /* [CP] Embed Pods Frameworks */,
+				2AE950656CD462A44762D4AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17CECA2E1FDDAFDE00F6F08F /* Build configuration list for PBXNativeTarget "brainshareappTests" */;
 			buildPhases = (
+				31001BD380BEB7AE2473035E /* [CP] Check Pods Manifest.lock */,
 				17CECA131FDDAFDE00F6F08F /* Sources */,
 				17CECA141FDDAFDE00F6F08F /* Frameworks */,
 				17CECA151FDDAFDE00F6F08F /* Resources */,
+				8D4FF0C22CE08F206F9EEB23 /* [CP] Embed Pods Frameworks */,
+				F3ECBA47B5E3585B8005934C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17CECA311FDDAFDE00F6F08F /* Build configuration list for PBXNativeTarget "brainshareappUITests" */;
 			buildPhases = (
+				924E77F23BCF1FC946037E82 /* [CP] Check Pods Manifest.lock */,
 				17CECA1E1FDDAFDE00F6F08F /* Sources */,
 				17CECA1F1FDDAFDE00F6F08F /* Frameworks */,
 				17CECA201FDDAFDE00F6F08F /* Resources */,
+				3B5E6ECA8D23CA16CF8EE1D4 /* [CP] Embed Pods Frameworks */,
+				B0FA7632A18DCABAF6E65CDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				17CECA111FDDAFDE00F6F08F /* LaunchScreen.storyboard in Resources */,
+				17CECA351FDDB14300F6F08F /* GoogleService-Info.plist in Resources */,
 				17CECA0E1FDDAFDE00F6F08F /* Assets.xcassets in Resources */,
 				17CECA0C1FDDAFDD00F6F08F /* Main.storyboard in Resources */,
 			);
@@ -254,12 +307,171 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1011275DC749733E20D5954B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-brainshareapp/Pods-brainshareapp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brainshareapp/Pods-brainshareapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AE950656CD462A44762D4AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-brainshareapp/Pods-brainshareapp-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brainshareapp/Pods-brainshareapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31001BD380BEB7AE2473035E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brainshareappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B5E6ECA8D23CA16CF8EE1D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brainshareappUITests/Pods-brainshareappUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BA9DDE46408E17CB1714AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brainshareapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D4FF0C22CE08F206F9EEB23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brainshareappTests/Pods-brainshareappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		924E77F23BCF1FC946037E82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brainshareappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0FA7632A18DCABAF6E65CDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brainshareappUITests/Pods-brainshareappUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3ECBA47B5E3585B8005934C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-brainshareappTests/Pods-brainshareappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		17CEC9FF1FDDAFDD00F6F08F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17CECA091FDDAFDD00F6F08F /* ViewController.swift in Sources */,
+				17CECA091FDDAFDD00F6F08F /* SignInViewController.swift in Sources */,
 				17CECA071FDDAFDD00F6F08F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +636,7 @@
 		};
 		17CECA2C1FDDAFDE00F6F08F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BAE58BB84754BCB8DFEC8F /* Pods-brainshareapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +652,7 @@
 		};
 		17CECA2D1FDDAFDE00F6F08F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 241D7F24DB73925F841E6736 /* Pods-brainshareapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +668,7 @@
 		};
 		17CECA2F1FDDAFDE00F6F08F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16337160A01216C3E0E63AA /* Pods-brainshareappTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +686,7 @@
 		};
 		17CECA301FDDAFDE00F6F08F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9714B72BFB45F014604B6976 /* Pods-brainshareappTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +704,7 @@
 		};
 		17CECA321FDDAFDE00F6F08F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 455E492BBE2994BE361BDB63 /* Pods-brainshareappUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +721,7 @@
 		};
 		17CECA331FDDAFDE00F6F08F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B99A83C60990D157888A18C /* Pods-brainshareappUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
